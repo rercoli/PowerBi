@@ -1,0 +1,17 @@
+Conditional Formatting 1 - Highlight Column = 
+
+VAR Numero =
+MAX(DimData[Giorno]) + MAX(DimData[Mese]) + MAX(DimData[TrimestreNumero])
+
+VAR Cf =
+IF(
+    MOD(
+        Numero,
+        2
+    ),
+    "#ebebeb",
+    "#bfbfbf"
+)
+
+RETURN
+Cf
