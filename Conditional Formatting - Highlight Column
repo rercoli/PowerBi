@@ -1,0 +1,10 @@
+Conditional Formatting 1 - Highlight Column = 
+
+VAR Cf =
+IF(
+    [Giacenza Quantità v1] <= [Quantità Impegnato v1],
+    "rgba(214,69,84,1.0)"
+)
+
+RETURN
+Cf
