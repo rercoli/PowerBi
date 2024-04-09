@@ -1,4 +1,4 @@
-Conditional Formatting 1 - Highlight Column = 
+Conditional Formatting 1 - Highlight Column Based On Condition = 
 
 VAR Cf =
 IF(
