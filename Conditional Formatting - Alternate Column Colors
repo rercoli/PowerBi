@@ -1,4 +1,4 @@
-Conditional Formatting 1 - Highlight Column = 
+Conditional Formatting 1 - Alternate Column Color = 
 
 VAR Numero =
 MAX(DimData[Giorno]) + MAX(DimData[Mese]) + MAX(DimData[TrimestreNumero])
