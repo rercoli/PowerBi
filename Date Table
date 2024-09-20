@@ -1,0 +1,16 @@
+DimDateTable = 
+
+ADDCOLUMNS(
+    CALENDAR(
+        DATE(2019, 1, 1), 
+        DATE(2030, 31, 12)
+        ),
+    "Giorno", DAY([Date]),
+    "Mese", MONTH([Date]),
+    "Mese Esteso", FORMAT([Date], "MMM"), 
+    "Anno", YEAR([Date]),   
+    "Trimestre Numero", QUARTER([Date]),
+    "Trimestre", FORMAT([Date], "\QQ"),
+    "Giorno Settimana", WEEKDAY([Date]),
+    "Giorno Settimana Esteso", FORMAT(WEEKDAY([Date]), "ddd")
+)
